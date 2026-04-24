@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background: #020617;
+  color: #e2e8f0;
+}
+
+html.dark .bg-white,
+html.dark .bg-brand-bg,
+html.dark .bg-\[\#e9f2f5\],
+html.dark .bg-\[\#E9F2F5\],
+html.dark .bg-\[\#F8FAFC\],
+html.dark .bg-slate-50 {
+  background-color: #0f172a !important;
+}
+
+html.dark .bg-\[\#F0F7FF\],
+html.dark .bg-\[\#e9f2f5\]\/50,
+html.dark .bg-\[\#e9f2f5\]\/30,
+html.dark .bg-white\/60,
+html.dark .bg-white\/80,
+html.dark .bg-white\/5 {
+  background-color: rgb(15 23 42 / 0.85) !important;
+}
+
+html.dark .border-white,
+html.dark .border-slate-100,
+html.dark .border-slate-200 {
+  border-color: #1e293b !important;
+}
+
+html.dark .text-brand-dark,
+html.dark .text-\[\#1e293b\],
+html.dark .text-\[\#0F172A\] {
+  color: #e2e8f0 !important;
+}
+
+html.dark .text-slate-500,
+html.dark .text-slate-400,
+html.dark .text-gray-500,
+html.dark .text-gray-600 {
+  color: #94a3b8 !important;
+}
+
+html.dark .shadow-sm,
+html.dark .shadow-md,
+html.dark .shadow-lg,
+html.dark .shadow-xl,
+html.dark .shadow-2xl {
+  box-shadow: none !important;
+}
