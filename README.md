@@ -6,6 +6,7 @@ A modern AI-powered recruitment platform built with Next.js and Tailwind CSS.
 
 **Frontend:** https://umurava-frontend-orpin.vercel.app  (still in development)
 **Backend API:** https://umurava-backend.up.railway.app ( api running )
+**Video Demo**- https://youtu.be/a5hBbV_G9gk 
 
 ## ✨ Features
 
