@@ -4,12 +4,12 @@ A modern AI-powered recruitment platform built with Next.js and Tailwind CSS.
 
 ## 🌐 Live Demo
 
-**Frontend:** https://umurava-frontend-orpin.vercel.app  
-**Backend API:** https://umurava-backend.up.railway.app
+**Frontend:** https://umurava-frontend-orpin.vercel.app  (still in development)
+**Backend API:** https://umurava-backend.up.railway.app ( api running )
 
 ## ✨ Features
 
-- 🔐 Authentication (Email/Password + Google OAuth- in progress(not working due to some issues faced with vercel))
+- 🔐 Authentication (Email/Password + Google OAuth (optional for the Company) )
 - 📧 Email verification on signup
 - 👤 Applicant dashboard — browse jobs, request admin access
 - 🛠️ Admin dashboard — manage jobs, candidates, screening results
@@ -22,7 +22,7 @@ A modern AI-powered recruitment platform built with Next.js and Tailwind CSS.
 - **Framework:** Next.js 15 (App Router)
 - **Styling:** Tailwind CSS
 - **Language:** TypeScript
-- **Deployment:** Vercel
+- **Deployment:** Vercel ( Frontend) + Railway( For backend )
 
 ## 🛠️ Getting Started
 
