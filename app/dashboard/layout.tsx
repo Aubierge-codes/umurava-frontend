@@ -81,7 +81,7 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen bg-[#e9f2f5] flex">
-      <aside className="hidden lg:flex flex-col w-72 bg-[#2E5A88] text-white fixed h-full z-50">
+      <aside className="hidden lg:flex flex-col w-72 bg-[#2E5A88] text-white fixed h-full z-50 overflow-y-auto">
         <div className="p-8 flex items-center gap-3">
           <GwizaBrandMark size={32} textClassName="text-brand-blue" />
         </div>
@@ -98,7 +98,7 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
           ))}
         </nav>
 
-        <div className="p-4 border-t border-white/10 space-y-2">
+        <div className="p-4 border-t border-white/10 space-y-2 shrink-0">
           <div className="flex items-center gap-3 bg-white/5 p-3 rounded-2xl">
             <div className="w-10 h-10 bg-brand-blue rounded-xl flex items-center justify-center font-bold text-sm shrink-0" suppressHydrationWarning>
               {userInitials}
